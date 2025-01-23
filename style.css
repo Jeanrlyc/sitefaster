@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.sec01{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+#logo{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+#logo i{
+    color: orangered;
+    font-size: 24px;
+}
+
+#logo h1{
+    color: orangered;
+    font-size: 24px;
+}
+#menu{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container a{
+    color: black;
+    font-weight: 400;
+}
+#botao{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botao button{
+    width: 13vw;
+    background-color: orangered;
+    color: white;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+}
+.container:hover{
+    background-color: orangered;
+}
+#banner{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+}
+#text{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imag{
+    width: 100vw;
+    height: 60vh;
+}
+#imag img{
+    width: 100vw;
+    height: 60vh;
+    filter: brightness(20%);
+}
+#texts h4{
+    font-size: 24px;
+    text-align: center;
+    color: orangered;
+}
+#texts h1{
+    font-size: 42px;
+    color: white;
+}
+#search{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#search button{
+    background-color: orangered;
+    width: 9vw;
+    height: 6vh;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+}
+#search input{
+    width: 20vw;
+    height: 5.6vh;
+}
+#search input::placeholder{
+    padding-left: 1vw;
+}
+span{
+    color: orangered;
+    text-align: center;
+    font-size: 20px;
+    
+}
+#get h4{
+    color: orangered;
+}
+.texs{
+    display: flex;
+    width: 30vw;
+    height: 40vh;
+    gap: 60px;
+}
+.texs p{
+    font-size: 12px;
+        
+}
+.caixa{
+    background-color: orangered;
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+.caixa2{
+    width: 50vw;
+    height: 40vh;
+    margin: 2px;
+    
+}
+.caixa input, .caixa button {
+    margin-bottom: 10px; /* Ajuste este valor conforme necessário */
+}
+.total{
+    
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+.name{
+    width: 30vw;
+    height: 13vh; 
+    text-align: center;
+
+
+}
+.get {
+    width: 16vw;
+    height: 4vh;
+    color: aliceblue;
+    background-color: black;
+}
+.box2{
+    display: flex;
+    font-size: 12px;
+}
+.box2 h2{
+    background-color: rgb(250, 67, 0);
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+}
+.box2 strong{
+    font-size: 30px;
+}
+.Affordable{
+    text-align: center;
+}
+.Affordable h5{
+    color: orangered;
+    text-align: center;
+}
+.boxx01{
+    box-shadow: 20px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+    width: 18vw;
+    height: 46vh;
+    margin: 1%;
+}
+.box2 button{
+    width: 18vw;
+    height: 4vh;
+    color: rgb(255, 255, 255);
+    background-color: orangered
+}
+.box2 h3,p{
+    color: rgb(140, 138, 143);
+    margin-bottom: 10px;
+}
