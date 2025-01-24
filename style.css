@@ -228,3 +228,37 @@ span{
     color: rgb(140, 138, 143);
     margin-bottom: 10px;
 }
+.delivery {
+    display: flex;
+    text-align: center;
+    background-color: rgb(228, 228, 230);
+}
+.full {
+    width: 18vw;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#dele {
+    text-align: center;
+    margin: 12px;
+    
+}
+#dele p {
+    color: orangered;
+    font-size: 15px;
+    height: 20px;
+    margin: -5px;
+}
+.our{
+    display: flex;
+    text-align: justify;
+    
+       
+}
+.our img,p{
+    width: 40vw;
+    margin: 12px;
+    
+}
